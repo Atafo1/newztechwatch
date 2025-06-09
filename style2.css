@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    padding: 1vw;
+    position: fixed;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    z-index: 1000;
+    /* background: white; */
+    width: 100%;
+}
+.column2 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:4vw ;
+    font-size:2vw;
+    font-weight: 700;
+}
+.column1{
+    padding-left: 4vw;
+}
+.column2{
+    padding-left: 30vw;
+    padding-top: 3vw;
+}
+.column1 ,.img1{
+    height: 9vw;
+}
+.column2 button{
+    /* border-color: #8F00FF; */
+    border-color:  #8F00FF;
+    border-radius: 2vw;
+ padding-right: 5vw; 
+    border: 1px solid  #8F00FF ;
+     padding-top: 5px; 
+     padding-bottom: 5px;
+    background-color: #8F00FF;
+      
+      color: white;
+      text-decoration: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       padding-left:1vw ; 
+      font-size: 25px;
+}
+.home:hover{
+    border-color: #00D4FF;
+   
+    border: 1px solid #00D4FF;
+     /* padding: 5px 5px 5px 15px; */
+    background-color: #00D4FF;
+   
+   
+}
+.about:hover{
+    border-color: #00D4FF;
+   
+    border: 1px solid #00D4FF;
+   
+    background-color: #00D4FF;
+   
+   
+}
+.cont:hover{
+    border-color: #00D4FF;
+   
+    border: 1px solid #00D4FF;
+   
+    background-color: #00D4FF;
+   
+   
+}
+.buyn1{
+    padding: 20px 25px 20px 25px;
+    text-decoration: none;
+    background-color: #1E1E3F ;
+    color: white;
+    text-decoration: solid;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+   
+    border-radius: 30px;
+    border: 1px solid #8F00FF;
+}
+.buyn1:hover{
+      background-color: white;
+      border: 3px solid #1E1E3F;
+      padding: 20px 25px 20px 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #1E1E3F;
+      cursor: pointer;
+}
+section{
+     display:flex;
+     background-color: #1E1E3F;
+     height: 600px;
+     padding-top: 120px;
+     position: relative;
+     z-index: 1;
+     padding-bottom: 0px;
+}
+.section{
+    display: flex;
+}
+.quest{
+    width: 50%;
+    color: white;
+    padding-top:50px ;
+    padding-left:50px ;
+
+}
+.quest h1{
+    font-size: 7vw;
+}
+.form{
+    width: 50%;
+   padding-left: 20vw;
+    padding-top: 8vw;
+
+
+}
+form{
+    border-radius: 20px;
+    background-color: white;
+    height: 23vw;
+    padding:  30px 5px 5px 30px;
+}
+form label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+.first{
+    margin-bottom: 1.2vw;
+}
+#submit{
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    background-color: #8F00FF;
+    color: white;
+    text-decoration: solid;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+   
+    border-radius: 20px;
+    border: 1px solid #8F00FF;
+}
+
+@font-face {
+    font-family: 'Customfont';
+    src: url('BebasNeue-Regular.ttf')
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+footer{
+    height: 21vw;
+    background-color: #8b8989;
+     margin-top: 0px;
+     padding-top: 0px;
+
+}
+.footer{
+    
+   
+     display: flex;
+}
+.text{
+     font-size: 1.4vw;
+    color: white;
+    font-family: 'Customfont',sans-serif;
+    padding-left: 60px;
+    width: 33.33%;
+}
+.text h1{
+    padding-left: 1.3vw;
+     padding-top: 2vw;
+}
+.footer2{
+    width: 33.33%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+   margin-left: 3.1vw;
+    padding-top: 0.7vw;
+}
+.footer2 h3{
+    margin-right: 0.3vw;
+}
+.footer3{
+    width: 33.33%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+    font-weight: bold;
+   font-size: 1.3vw;
+    padding-left: 4vw;
+}
+.footer3 p{
+    padding-left: 5vw; 
+}
+.footer3 img{
+    height: 3vw; 
+    padding: 0.5vw;
+}
